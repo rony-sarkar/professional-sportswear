@@ -1,0 +1,592 @@
+/*  ================================
+        global area start 
+    ================================ */
+
+body {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+.bg-cover {
+    overflow: hidden;
+    background: url('../images/home-page-bg.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+table {}
+
+table td {
+    padding: 0;
+}
+.single-care h3 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	color: #333;
+	padding: 35px 0 15px;
+}
+.schedule-area {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.schedule {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.schedule img {
+    height: 45px;
+}
+
+.schedule h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.schedule p {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.schedule-left {
+    background-color: #F58634;
+}
+
+.schedule-right {
+    background-color: #323232;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.logo {
+    margin: 34px 0 0;
+}
+
+.search {
+    margin: 43px 0 0;
+}
+
+/*======================== Menu Design ==================*/
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 5px 0 0 #fff, 0 0 0 0 inset, 0 -5px 0 0 #fff;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 45px;
+    position: relative;
+}
+
+.menu-container label {
+    background: #CD0003;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 4px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #CD0003;
+}
+#navbar ul{
+    text-align: center;
+}
+#navbar ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#navbar ul.pull-left li:first-child {
+    margin-left: 0;
+}
+
+#navbar ul.pull-left li:last-child {
+    margin-right: 43px;
+}
+
+#navbar ul.pull-right li:first-child {
+    margin-left: 43px;
+}
+
+#navbar ul.pull-right li:last-child {
+    margin-right: 0;
+}
+
+#navbar ul li a {
+    margin: 0px;
+    padding: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+    background-color: #CD0003;
+    color: #fff;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.why-us {
+    width: 20%;
+    float: left;
+}
+
+.why-us h3 {
+    background-color: #CD0003;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-us i.fa {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.support-box {
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    border: 1px solid #D1D1D1;
+    padding: 10px 0;
+    border-left: 0;
+    height: 53px;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-box {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.service-left {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #CD0003;
+}
+
+.service-right {
+    width: 80%;
+    float: right;
+    padding: 7px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.5s;
+    color: #2D2E2F;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -4px;
+}
+
+.service-right:hover {
+    color: #2D2E2F;
+}
+
+/*  ================================
+        product title area start
+    ================================ */
+.service-banner {
+    padding-top: 40px;
+}
+
+.pro-title {
+    background-color: #CD0003;
+    padding: 15px 30px;
+    margin: 0 0 30px;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.sidebar-box {
+    padding: 0 0 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.sidebar-box h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #CD0003;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.sidebar-box img {
+    width: 200px;
+}
+
+
+.product-dec ul,
+.tab-list ul {
+    margin: 0 0 10px;
+}
+
+.sidebar-box ul {
+    margin: 0 10px;
+}
+
+.sidebar-box ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar-box ul li {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 20px;
+}
+
+.sidebar-box ul li:last-child {
+    border-bottom: 0;
+}
+
+.sidebar-box ul li::before {
+    position: absolute;
+    content: "\f046";
+    font-family: fontawesome;
+    left: 0;
+    color: #000;
+}
+
+.sidebar-box ul li a {
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    color: #000;
+    font-weight: bold;
+}
+
+.product-wraper {
+    overflow: hidden;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.all-goggles .mb {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.dec-title {
+    margin-bottom: 0;
+}
+
+.product-dec {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.product-dec h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #CD0003;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 0 0 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-dec h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+
+.product-dec h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 20px 0 0;
+}
+
+.product-dec p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.product-dec p strong span {
+    color: #000000;
+}
+
+p.price {
+    font-size: 22px;
+}
+
+.product-dec p a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    margin-left: 15px;
+}
+
+.product-dec ul,
+.tab-list ul {
+    margin-bottom: 15px;
+}
+
+.product-dec ul li,
+.tab-list ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul li::before,
+.tab-list ul li::before {
+    position: absolute;
+    content: "\f046";
+    font-family: fontawesome;
+    left: 0;
+    color: #CD0003;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 30px 0 0;
+}
+
+section.tab-section {
+    display: none;
+    padding: 40px 45px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+.tab-part-area input {
+    display: none;
+}
+
+.tab-part-area label {
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F8F8FA;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+
+.tab-part-area label:hover {
+    color: #fff;
+    border: 1px solid #CD0003;
+    background-color: #CD0003;
+    cursor: pointer;
+}
+
+.tab-part-area input:checked + label {
+    color: #fff;
+    border: 1px solid #CD0003;
+    background-color: #CD0003;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+    display: block;
+}
+
+.tab-part-area section > p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-list img {
+    margin: 0 0 30px;
+}
+
+.tab-section h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #3a3a3a;
+    margin: 20px 0 15px;
+    font-weight: 600;
+}
+
+.tab-section p {
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-section p:last-child {
+    margin-bottom: 0;
+}
+
+.tab-section p a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: underline;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+.copy-right {
+    background: url(../images/desigby-bg.png) no-repeat center top;
+    margin-top: 30px;
+}
+
+.copy-right p {
+    padding: 30px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
